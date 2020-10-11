@@ -1,0 +1,11 @@
+target
+.idea
+build
+.gradle
+out
+node_modules
+dist
+
+# CDK related
+.cdk.staging
+cdk.out
