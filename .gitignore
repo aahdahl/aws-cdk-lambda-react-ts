@@ -1,6 +1,7 @@
 target
 .idea
 build
+infra/.gradle
 .gradle
 out
 node_modules

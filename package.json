@@ -1,0 +1,10 @@
+{
+  "name": "helloworld",
+  "version": "0.0.1",
+  "description": "Hello world with lambda and react",
+  "main": "index.js",
+  "repository": "git@github.com:aahdahl/aws-cdk-lambda-react-ts.git",
+  "author": "Aage Dahl <aage@gold-as.no>",
+  "license": "MIT",
+  "private": null
+}
