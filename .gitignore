@@ -16,7 +16,6 @@ cdk.out
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
 
 # testing
 /coverage
@@ -34,3 +33,10 @@ cdk.out
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
