@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "main": "../../infra/dist/hello",
+  "source": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.12.4",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "build": "microbundle --no-pkg-main -f cjs",
+    "watch": "microbundle watch --no-pkg-main -f cjs"
+  }
+}
